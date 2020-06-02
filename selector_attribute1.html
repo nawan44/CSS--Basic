@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Selector Attribute</title>
+    </head>
+        <style>
+            a[href]{
+                color: red;
+            }
+            [href$="ak.jpg"]{
+                color: aqua;
+            }
+            [title]{
+                color: blue;
+            }
+            li[title]{
+                color: yellow;
+            }
+            li[title = "CSS"]{
+                color: chartreuse;
+            }
+        </style>
+    <body>
+        <h2 title="Learn">Learn Web</h2>
+        <a href="http://rachmatgunawan.com">Rachmat Gunawan</a>
+
+        <ul>
+            <li title="HTML">HTML</li>
+            <li title="CSS">CSS</li>
+            <li title="Javascipt">Javascript</li>
+            <li title="React">React</li>
+            <li title="NodeJs" > <img  src="image/ak.jpg"/>NodeJs</li>
+        </ul>
+    </body>
+</html>

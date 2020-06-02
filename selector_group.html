@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Selector Group</title>
+        <style>
+            h1, h4, p{
+                color: red;
+            }
+            #header, [title~="serius"]{
+                color: blue;
+            }
+            h2.aku{
+                color: greenyellow;
+            }
+            h1#cara{
+                color: hotpink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Learn CSS</h1>
+        <h2 id="header">hihihihi</h2>
+        <p>Don't Be Noise</p>
+
+        <div>
+            <h1 id="cara">Method</h1>
+            <h2  class="aku">Internal</h3>
+            <h4>h2 in Div</h4>
+            <p title="pengen serius">p in div</p>
+        </div>
+    </body>
+</html>
