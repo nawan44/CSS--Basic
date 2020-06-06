@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dynamic Pseudo Selector</title>
+        <style>
+            a:link {
+                color: red;
+            }
+            a:visited {
+                color: greenyellow;
+            }
+            a:hover{
+                color: blue;
+            }
+            a:active{
+                color: yellow;
+            }
+            :target{
+                color: tomato;
+            }
+            input:focus{
+                border:solid lightcoral 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <a id="daftar_kota">Daftar Kota</a>
+        <ul>
+            <li>
+                <a href="http://en.wikipedia.org/wiki/Padang" target="blank">Kota Padang</a>
+            </li>
+            <li>
+                <a href="http://en.wikipedia.org/wiki/Medan" target="blank">Kota Medan</a>
+            </li>
+            <li>
+                <a href="http://en.wikipedia.org/wiki/Jakarta" target="blank">Kota Jakarta</a>
+            </li>
+            <li>
+                <a href="http://en.wikipedia.org/wiki/Makassar" target="blank">Kota Makassar</a>
+            </li>
+        </ul>
+
+        <form action="register.php" method="GET">
+            <p>Nama  : <input type="text" name="nama"></p>
+            <p>Umur  : <input type="text" name="umur"></p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Structural Pseudo Class</title>
+        <style>
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            li{
+                width: 150px;
+                height: 30px;
+                padding: 0 10px;
+                font-size: 18px;
+                margin-left: 50px;
+                line-height: 30px;
+            }
+            li:first-child{
+                background: magenta;
+            }
+            li:last-child{
+                background: aqua;
+            }
+            li:nth-child(odd){
+                color: chartreuse;
+            }
+            li:nth-child(even){
+                color: coral;
+            }
+            p:first-of-type{
+                color: cadetblue;
+            }
+            p::first-line{
+                color: darkblue;
+            }
+            p::first-letter{
+                color: darkred;
+                font-size: 2em;
+            }
+            a::before{
+                content: "Sejarah ";
+            }
+            a::after{
+                content: "("attr(href)")";
+                color: silver;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="aceh.html">Aceh</a></li>
+            <li><a href="bandung.html">Bandung</a></li>
+            <li><a href="cimahi.html">Cimahi</a></li>
+            <li><a href="dago.html">Dago</a></li>
+            <li><a href="elang.html">Elang</a></li>
+            <li>List Keenam</li>
+            <li>List Ketujuh</li>
+            <li>List Kedelapan</li>
+            <li>List Kesembilan</li>
+            <li>List Kesepuluh</li>
+            <li>List Kesebelas</li>
+            <li>List Keduableas</li>
+            <li>List Ketigabelas</li>
+            <li>List Keempatbelas</li>
+            <li>List Kelimabelas</li>
+        </ul>
+        <div>
+            <h1>Learn CSS</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum sapien nec elit volutpat pellentesque. Vestibulum tristique justo ut eros iaculis, sit amet tempor luctus. Quisque convallis sapien sit amet sem efficitur, at efficitur ornare
+            </p>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum sapien nec elit volutpat pellentesque. Vestibulum tristique justo ut eros iaculis, sit amet tempor luctus. Quisque convallis sapien sit amet sem efficitur, at efficitur ornare
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum sapien nec elit volutpat pellentesque. Vestibulum tristique justo ut eros iaculis, sit amet tempor luctus. Quisque convallis sapien sit amet sem efficitur, at efficitur ornare
+            </p>
+        </div>
+    </body>
+</html>
