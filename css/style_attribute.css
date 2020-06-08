@@ -1,0 +1,15 @@
+a[href]{
+    color: red;
+}
+[href$="ak.jpg"]{
+    color: aqua;
+}
+[title]{
+    color: blue;
+}
+li[title]{
+    color: yellow;
+}
+li[title = "CSS"]{
+    color: chartreuse;
+}

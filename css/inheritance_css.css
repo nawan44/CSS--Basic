@@ -1,0 +1,21 @@
+body{
+    color: green;
+}
+div {
+    color: hotpink;
+}
+strong{
+    color: indigo;
+}
+p{
+    color: lightblue;
+}
+.first_class{
+    color: red !important;
+}
+#first_id{
+    color: maroon;
+}
+body #first_id{
+    color: yellowgreen;
+}

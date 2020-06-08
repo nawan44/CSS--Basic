@@ -1,0 +1,20 @@
+@media screen{
+    h1 {
+        color: red;
+    }
+    p {
+        font-size: 18px;
+        color: silver;
+    }
+}
+
+/* Style unjtuk media print*/
+@media print {
+    h1{
+        color: green;
+    }
+    p{
+        font-size: 19px;
+        color: blue;
+    }
+}

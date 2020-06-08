@@ -1,0 +1,12 @@
+h1, h4, p{
+    color: red;
+}
+#header, [title~="serius"]{
+    color: blue;
+}
+h2.aku{
+    color: greenyellow;
+}
+h1#cara{
+    color: hotpink;
+}

@@ -3,29 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Dynamic Pseudo Selector</title>
-        <style>
-            a:link {
-                color: red;
-            }
-            a:visited {
-                color: greenyellow;
-            }
-            a:hover{
-                color: blue;
-            }
-            a:active{
-                color: yellow;
-            }
-            :target{
-                color: tomato;
-            }
-            input:focus{
-                border:solid lightcoral 2px;
-            }
-        </style>
+        <link rel="stylesheet" href="css/selector_dynamic_pseudo.css">
     </head>
     <body>
-        <a id="daftar_kota">Daftar Kota</a>
+        <a id="daftar_kota">List City</a>
         <ul>
             <li>
                 <a href="http://en.wikipedia.org/wiki/Padang" target="blank">Kota Padang</a>
@@ -42,8 +23,8 @@
         </ul>
 
         <form action="register.php" method="GET">
-            <p>Nama  : <input type="text" name="nama"></p>
-            <p>Umur  : <input type="text" name="umur"></p>
+            <p>Name  : <input type="text" name="nama"></p>
+            <p>Age  : <input type="text" name="umur"></p>
         </form>
     </body>
 </html>

@@ -1,0 +1,42 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    width: 150px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+li:first-child{
+    background: magenta;
+}
+li:last-child{
+    background: aqua;
+}
+li:nth-child(odd){
+    color: chartreuse;
+}
+li:nth-child(even){
+    color: coral;
+}
+p:first-of-type{
+    color: cadetblue;
+}
+p::first-line{
+    color: darkblue;
+}
+p::first-letter{
+    color: darkred;
+    font-size: 2em;
+}
+a::before{
+    content: "Sejarah ";
+}
+a::after{
+    content: "("attr(href)")";
+    color: silver  ;
+}

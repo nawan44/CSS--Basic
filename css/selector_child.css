@@ -1,0 +1,10 @@
+div p{
+    color: blueviolet;
+}
+div > p {
+    color: brown;
+}
+
+ol ul > li{
+    color: chartreuse;
+}
