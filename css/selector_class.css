@@ -1,3 +1,4 @@
+/* class */
 .title{
     color: olive;
 }
@@ -6,4 +7,15 @@
 }
 .explan{
     color: brown;
+}
+
+/* ID */
+#judul_pertama{
+    color:brown;
+}
+#pesan_pertama{
+    color: cadetblue;
+}
+#judul_kedua{
+    color:darkgoldenrod
 }

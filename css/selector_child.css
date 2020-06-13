@@ -1,10 +1,35 @@
-div p{
+div p {
     color: blueviolet;
+    font-size: 120%;
 }
 div > p {
     color: brown;
+    font-size: 19.2px;
 }
 
-ol ul > li{
+ol ul > li {
     color: chartreuse;
+
+}
+
+p.xx-large {
+    font-size: xx-large;
+}
+p.x-large {
+    font-size: x-large;
+}
+p.large {
+    font-size: large;
+}
+p.medium {
+    font-size: medium;
+}
+p.small {
+    font-size: small;
+}
+p.x-small {
+    font-size: x-small;
+}
+p.xx-small {
+    font-size: xx-small;
 }
