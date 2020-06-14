@@ -14,6 +14,41 @@ input:checked{
 p input {
     width : 100%;
 }
+/* TYPHOGRAPHY */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body p{
+  font-family: fantasy;
+  
+}
+
+p.px{font-size: 4px;}
+p.mm{font-size: 4mm;}
+p.cm{font-size: 4cm;}
+p.pt{font-size: 4pt;}
+p.in{font-size: 4in;}
+p.pc{font-size: 4pc;}
+
+.myf{
+  font-size: 18px;
+}
+p.persen140{font-size: 140%;}
+p.persen14em{font-size: 1.4em;}
+p.persen14rem{font-size: 1.4rem;}
+p.persen80{font-size: 80%;}
+p.pixel254{font-size: 25.4px;}
+p.pixel172{font-size: 17.2px;}
+
+p.xx-large{font-size: xx-large;}
+p.x-large{font-size: x-large;}
+p.large{font-size: large;}
+p.medium{font-size: medium;}
+p.small{font-size: small;}
+p.x-small{font-size: x-small;}
+p.xx-small{font-size: xx-small;}
+
 /* The container */
 .container {
     display: block;
@@ -81,12 +116,3 @@ p input {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-/* TYPHOGRAPHY */
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-body p{
-    font-family: fantasy;
-    
-}
