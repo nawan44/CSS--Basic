@@ -1,15 +1,25 @@
 a[href]{
     color: red;
+    font-size: 14px;
+    font-family: inherit;
 }
 [href$="ak.jpg"]{
     color: aqua;
+    font-size: 14px;
+    font-family: inherit;
 }
 [title]{
     color: blue;
+    font-size: 14px;
+    font-family: inherit;
 }
 li[title]{
     color: yellow;
+    font-size: 14px;
+    font-family: inherit;
 }
 li[title = "CSS"]{
     color: chartreuse;
+    font-size: 14px;
+    font-family: inherit;
 }

@@ -1,10 +1,13 @@
 @media screen{
     h1 {
         color: red;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     p {
         font-size: 18px;
         color: silver;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
 
@@ -12,9 +15,12 @@
 @media print {
     h1{
         color: green;
+        font-size: x-small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     p{
         font-size: 19px;
         color: blue;
+        font-family: fantasy;
     }
 }

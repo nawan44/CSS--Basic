@@ -1,18 +1,30 @@
 div h2{
+    font-size: 14px;
+    font-family: inherit;
     color: red;
 }
 p em{
+    font-size: 14px;
+    font-family: inherit;
     color:magenta;
 }
 body h1{
+    font-size: 14px;
+    font-family: inherit;
     color: greenyellow;
 }
 div .kar{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
     color: mediumblue;
 }
 div.pesan{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: mediumorchid;
 }
 div .pesan{
+    font-size: 14px;
+    font-family: sans-serif;
     color: mediumseagreen;
 }
