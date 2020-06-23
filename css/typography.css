@@ -17,37 +17,114 @@ p input {
 /* TYPHOGRAPHY */
 
 body {
+  color: springgreen;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 body p{
+
+  font-size: 16px;
   font-family: fantasy;
-  
+  color: black;
 }
 
-p.px{font-size: 4px;}
-p.mm{font-size: 4mm;}
-p.cm{font-size: 4cm;}
-p.pt{font-size: 4pt;}
-p.in{font-size: 4in;}
-p.pc{font-size: 4pc;}
+p.px{font-size: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+p.mm{font-size: 4mm;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blue;
+}
+p.cm{font-size: 4cm;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+}
+p.pt{font-size: 4pt;
+  font-family: cursive;
+  color: yellow;
+}
+p.in{font-size: 4in;
+  font-family: fantasy;
+  color: #2196F3;
+}
+p.pc{font-size: 4pc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: yellowgreen;
+}
 
 .myf{
   font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: magenta;
+  background-color: darkkhaki;
 }
-p.persen140{font-size: 140%;}
-p.persen14em{font-size: 1.4em;}
-p.persen14rem{font-size: 1.4rem;}
-p.persen80{font-size: 80%;}
-p.pixel254{font-size: 25.4px;}
-p.pixel172{font-size: 17.2px;}
+p.persen140{font-size: 140%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: maroon;
+  background-color: darkgrey;
+}
+p.persen14em{font-size: 1.4em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: mediumaquamarine;
+  background-color: darkblue;
+}
+p.persen14rem{font-size: 1.4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: mediumblue;
+  background-color: chartreuse;
+}
+p.persen80{font-size: 80%;
+  font-family: monospace;
+  color: mediumorchid;
+  background-color: bisque;
+}
+p.pixel254{font-size: 25.4px;
+  font-family: sans-serif;
+  color: mediumpurple;
+  background-color: aquamarine;
+}
+p.pixel172{font-size: 17.2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: mediumseagreen;
+  background-color: #ccc;
+}
 
-p.xx-large{font-size: xx-large;}
-p.x-large{font-size: x-large;}
-p.large{font-size: large;}
-p.medium{font-size: medium;}
-p.small{font-size: small;}
-p.x-small{font-size: x-small;}
-p.xx-small{font-size: xx-small;}
+p.xx-large{font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(45,45,80,1);
+  background-color: yellowgreen;
+}
+p.x-large{font-size: x-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(45,45,80,0.8);
+  background-color: white;
+}
+p.large{font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(45,45,80,0.6);
+  background-color: violet;
+}
+p.medium{font-size: medium;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:  rgba(45,45,80,0.4);
+  background-color: turquoise;
+}
+p.small{font-size: small;
+  font-family: initial;
+  color: rgba(45,45,80,0.2);
+  background-color: thistle;
+}
+p.x-small{font-size: x-small;
+  font-family: inherit;
+  color: rgba(45,45,80,0);
+  background-color: darkgoldenrod;
+}
+p.xx-small{font-size: xx-small;
+  font-family: unset;
+  color: darkcyan;
+  background-color: yellow;
+}
 
 /* The container */
 .container {
