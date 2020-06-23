@@ -94,36 +94,55 @@ p.xx-large{font-size: xx-large;
   font-family: 'Times New Roman', Times, serif;
   color: rgba(45,45,80,1);
   background-color: yellowgreen;
+  font-weight: 100;
+  font-style: italic;
+  text-decoration: dashed;
 }
 p.x-large{font-size: x-large;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgba(45,45,80,0.8);
   background-color: white;
+  font-weight: 200;
+  font-style: oblique;
+  text-decoration: dotted;
 }
 p.large{font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgba(45,45,80,0.6);
   background-color: violet;
+  font-weight: 300;
+  font-style: initial;
+  text-decoration: line-through;
 }
 p.medium{font-size: medium;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color:  rgba(45,45,80,0.4);
   background-color: turquoise;
+  font-weight: 400;
+  font-style: inherit;
+  text-decoration: overline;
 }
 p.small{font-size: small;
   font-family: initial;
   color: rgba(45,45,80,0.2);
   background-color: thistle;
+  font-weight: 500;
+  font-style: unset;
+  text-decoration: solid;
 }
 p.x-small{font-size: x-small;
   font-family: inherit;
   color: rgba(45,45,80,0);
   background-color: darkgoldenrod;
+  font-weight: 600;
+  text-decoration: underline;
 }
 p.xx-small{font-size: xx-small;
   font-family: unset;
   color: darkcyan;
   background-color: yellow;
+  font-weight: 700;
+  text-decoration: wavy;
 }
 
 /* The container */
