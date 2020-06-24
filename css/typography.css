@@ -145,6 +145,55 @@ p.xx-small{font-size: xx-small;
   text-decoration: wavy;
 }
 
+.text1{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: underline solid red;
+  text-transform: capitalize;
+}
+.text2{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: overline dashed green;
+  text-transform: lowercase;
+}
+.text3{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: line-through wavy yellow;
+}
+.text4{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-variant: small-caps;
+}
+.text5{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-variant: initial;
+}
+.text6{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.text7{
+  font-size: 16px;
+  color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
 /* The container */
 .container {
     display: block;
