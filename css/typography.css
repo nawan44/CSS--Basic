@@ -152,6 +152,8 @@ p.xx-small{font-size: xx-small;
   font-weight: 500;
   text-decoration: underline solid red;
   text-transform: capitalize;
+  line-height: 1.2em;
+  letter-spacing: 5px;
 }
 .text2{
   font-size: 16px;
@@ -160,6 +162,8 @@ p.xx-small{font-size: xx-small;
   font-weight: 500;
   text-decoration: overline dashed green;
   text-transform: lowercase;
+  line-height: 150%;
+  letter-spacing: 0.7em;
 }
 .text3{
   font-size: 16px;
@@ -167,6 +171,8 @@ p.xx-small{font-size: xx-small;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   text-decoration: line-through wavy yellow;
+  line-height: 1.8;
+  letter-spacing: 1rem;
 }
 .text4{
   font-size: 16px;
@@ -174,6 +180,7 @@ p.xx-small{font-size: xx-small;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-variant: small-caps;
+  margin-bottom: 5px;
 }
 .text5{
   font-size: 16px;
@@ -181,6 +188,7 @@ p.xx-small{font-size: xx-small;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-variant: initial;
+  margin-bottom: 1.9em;
 }
 .text6{
   font-size: 16px;
