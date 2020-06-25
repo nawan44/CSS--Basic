@@ -1,10 +1,14 @@
 @media screen{
     h1 {
+        line-height: 1;
+        letter-spacing: 1;
         color: red;
         font-size: 20px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     p {
+        line-height: 1;
+        letter-spacing: 1;
         font-size: 18px;
         color: silver;
         font-family: 'Courier New', Courier, monospace;
@@ -14,11 +18,15 @@
 /* Style unjtuk media print*/
 @media print {
     h1{
+        line-height: 1;
+        letter-spacing: 1;
         color: green;
         font-size: x-small;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     p{
+        line-height: 1;
+        letter-spacing: 1;
         font-size: 19px;
         color: blue;
         font-family: fantasy;

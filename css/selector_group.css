@@ -2,19 +2,27 @@ h1, h4, p{
     color: red;
     font-size: 14px;
     font-family: sans-serif;
+    line-height: 1;
+    letter-spacing: 1;
 }
 #header, [title~="serius"]{
     color: blue;
     font-size: 14px;
     font-family: monospace;
+    line-height: 1;
+    letter-spacing: 1;
 }
 h2.aku{
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: greenyellow;
+    line-height: 1;
+    letter-spacing: 1;
 }
 h1#cara{
     font-size: 14px;
     font-family: inherit;
     color: hotpink;
+    line-height: 1;
+    letter-spacing: 1;
 }

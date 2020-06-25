@@ -2,29 +2,41 @@ div h2{
     font-size: 14px;
     font-family: inherit;
     color: red;
+    line-height: 1;
+    letter-spacing: 1;
 }
 p em{
     font-size: 14px;
     font-family: inherit;
     color:magenta;
+    line-height: 1;
+    letter-spacing: 1;
 }
 body h1{
     font-size: 14px;
     font-family: inherit;
     color: greenyellow;
+    line-height: 1;
+    letter-spacing: 1;
 }
 div .kar{
     font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
     color: mediumblue;
+    line-height: 1;
+    letter-spacing: 1;
 }
 div.pesan{
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: mediumorchid;
+    line-height: 1;
+    letter-spacing: 1;
 }
 div .pesan{
     font-size: 14px;
     font-family: sans-serif;
     color: mediumseagreen;
+    line-height: 1;
+    letter-spacing: 1;
 }

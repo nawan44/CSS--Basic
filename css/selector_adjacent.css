@@ -2,9 +2,13 @@ div h2{
     color: chartreuse;
     font-size: 14px;
     font-family: monospace;
+    line-height: 1;
+    letter-spacing: 1;
 }
 div + h2{
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: crimson;
+    line-height: 1;
+    letter-spacing: 1;
 }
