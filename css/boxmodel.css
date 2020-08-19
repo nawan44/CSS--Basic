@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    height: 800px;
+    height: auto;
 }
 h1 {
     width: 300px;
@@ -17,20 +21,153 @@ strong {
     background-color: blue;
     width: 100px;
     height: 50px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
 }
 
 .satu {
     overflow: hidden;
     padding: 40px 25px 30px 15px;
     border: 1px solid black;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
 }
 .dua {
     overflow: scroll;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #FAA;
+    border-right-width: 5px;
+    border-right-style: dashed;
+    border-right-color: #7A5587;
+    border-bottom-width: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: red;
+    border-left-width: 1em;
+    border-left-style: solid;
+    border-left-color: rgb(50,200,100);
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
 }
 .tiga {
     overflow: auto;
+    border-top: 5px solid red;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid green;
+    border-right: 5px solid blue;
+    border-radius: 4px 3px 6px / 2px 4px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
 }
-.empat {height: auto;width: 400px; padding: 20px;}
-.lima  {height: auto;width: 400px; padding: 5px 20px;}
-.enam  {height: auto;width: 400px; padding: 5px 30px 10px;}
-.tujuh {height: auto;width: 400px; padding: 5px 12px 25px 35px;}
+.empat {
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 4px dashed green;
+    border-top-left-radius: 1em 3em;
+    border-top-right-radius: 2em 5em;
+    border-bottom-right-radius: 3em 4em;
+    border-bottom-left-radius: 4em 1em;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
+    margin-top: 20px;
+
+}
+.lima {
+    height: auto;
+    width: 300px;
+    padding: 5px 20px;
+    margin: 0 0 60px 80px;
+    border-top-left-radius: 50px 20px;
+    border-top-right-radius: 20px 40px;
+    border-bottom-right-radius: 30px 5px;
+    border-bottom-left-radius: 40px 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
+}
+.enam {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+    height: auto;
+    width: 300px;
+    padding: 5px 30px 10px;
+    margin: 0 100px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
+}
+.tujuh {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 3em;
+    border-bottom-left-radius: 4em;
+    height: auto;
+    width: 300px;
+    padding: 5px 12px 25px 35px;
+    margin: 0 0 20px 100px;
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-language-override: normal;
+}
+div.container {
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 2px solid green;
+    background: url("bg_grid.png");
+}
+.box {
+    width: 150px;
+    height: 450px;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 10px;
+    float: left;
+    background-color: GreenYellow;
+    text-align: center;
+}
+.p {
+    background-color: yellow;
+    width: 150px;
+    height: 30px;
+}
+.box1 {
+    width: 150px;
+    height: 450px;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 10px;
+    float: left;
+    background-color: GreenYellow;
+    text-align: center;
+    border-radius: 20px;
+}
+.box2 {
+    width: 550px;
+    height: 450px;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 10px;
+    float: left;
+    background-color: GreenYellow;
+    text-align: center;
+    border-radius: 20px;
+}
