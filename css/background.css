@@ -1,0 +1,55 @@
+div {
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    float: left;
+}
+body {
+    background-color: PaleGreen;
+    background-image:url('../image/fruit.jpg');
+    background-repeat: repeat-x;
+
+}
+.container1{
+    width: 80%;
+}
+.one {
+    width: 100%;
+height: 500px;
+border: 2px solid green;
+margin: 0 auto;
+background-image: url('../image/green_apple.jpg');
+background-repeat: round;
+}
+.two {
+    width: 100%;
+    height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
+    background-image: url('../image/green_apple.jpg');
+    background-repeat: space;
+}
+.three {
+    background-color: rgb(153,102,153);
+}
+.four {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.five {
+    background-color: hsla(170, 50%, 45%, 1);
+}
+.six {
+    background-color: transparent;
+}
+.container2{
+    margin-top: 1500px;
+    height: 300px;
+    width: 90%;
+    background-image:url('../image/green_apple.jpg'),
+     url('../image/strawberries.jpg')
+    ;
+    background-repeat: no-repeat;
+}
