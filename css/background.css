@@ -9,47 +9,455 @@ div {
 }
 body {
     background-color: PaleGreen;
-    background-image:url('../image/fruit.jpg');
+    background-image: url("../image/fruit.jpg");
     background-repeat: repeat-x;
 
 }
-.container1{
+.container1 {
     width: 80%;
 }
-.one {
-    width: 100%;
-height: 500px;
-border: 2px solid green;
-margin: 0 auto;
-background-image: url('../image/green_apple.jpg');
-background-repeat: round;
-}
-.two {
+.first {
     width: 100%;
     height: 500px;
     border: 2px solid green;
     margin: 0 auto;
-    background-image: url('../image/green_apple.jpg');
+    background-image: url("../image/green_apple.jpg");
+    background-repeat: round;
+    background-position: 100px 50px;
+}
+.second {
+    width: 100%;
+    height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
+    background-image: url("../image/green_apple.jpg");
     background-repeat: space;
 }
-.three {
+.third {
+    width: 80%;
+    height: 300px;
     background-color: rgb(153,102,153);
+    background-repeat: no-repeat;
+    background-image: url("../image/banana.jpg");
+    background-position: center center;
 }
-.four {
+.fourth {
+    width: 960px;
+    height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.8);
+    background-image: url('../image/green_apple.jpg'), url('../image/banana.jpg'), url("../image/orange.jpg");
+    background-position: right bottom, 50% 0%, left bottom;
+    background-repeat: no-repeat;
 }
-.five {
-    background-color: hsla(170, 50%, 45%, 1);
+.fifth {
+    width: 960px;
+    height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
+    background-image: url("../image/strawberries.jpg");
+    background-size: 50% 50%;
 }
-.six {
+.sixth {
     background-color: transparent;
 }
-.container2{
-    margin-top: 1500px;
+.seventh {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+    background-image: url("../image/strawberries.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+}
+.eightth {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+    background-image: url("../image/banana.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    background-size: cover;
+}
+.ninth {
+    width: 800px;
+    height: 800px;
+    border: 2px solid green;
+    background-image: url("../image/banana.jpg");
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    background-attachment: scroll;
+}
+.tenth {
+    background-color: aqua;
+    width: 100%;
+    height: 800px;
+
+    background-image: url("../image/banana.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.divten {
+    width: 80%;
+    height: 700px;
+    border: 2px solid green;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+.one {
+    font-size: 7px;
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 25px;
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    background-origin: border-box;
+}
+.two {
+    font-size: 7px;
+
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 25px;
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    background-origin: padding-box;
+}
+.three {
+    font-size: 7px;
+
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 25px;
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    background-origin: content-box;
+}
+.four {
+    font-size: 7px;
+
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 25px;
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    background-clip: border-box;
+}
+.five {
+    font-size: 7px;
+
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 25px;
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    background-clip: padding-box;
+}
+.six {
+    font-size: 7px;
+
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    float: left;
+    color: black;
+    font-size: 25px;
+    border: 10px dashed green;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    background-clip: content-box;
+}
+.satu {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: normal;
+}
+.dua {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: multiply;
+}
+.tiga {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: overlay;
+}
+.empat {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: screen;
+}
+.lima {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: darken;
+}
+.enam {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: lighten;
+}
+.tujuh {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: color-dodge;
+}
+.delapan {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: color-burn;
+}
+.sembilan {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: hard-light;
+}
+.sepuluh {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: soft-light;
+}
+.sebelas {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: difference;
+}
+.duabelas {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: exclusion;
+}
+.tigabelas {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: hue;
+}
+.empatbelas {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: saturation;
+}
+.limabelas {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: color;
+}
+.enambelas {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 23px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: url("../image/fruit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode: luminosity;
+}
+.container2 {
+    margin-top: 4500px;
     height: 300px;
     width: 90%;
-    background-image:url('../image/green_apple.jpg'),
-     url('../image/strawberries.jpg')
-    ;
+    background-repeat: no-repeat;
+}
+.container3 {
+    margin-top: 800px;
+    height: 300px;
+    width: 90%;
+    background-repeat: no-repeat;
+}
+
+.container4 {
+    margin-top: 1800px;
+    height: 300px;
+    width: 90%;
+    background-image: url('../image/green_apple.jpg'), url("../image/strawberries.jpg");
     background-repeat: no-repeat;
 }
