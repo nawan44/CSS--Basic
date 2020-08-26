@@ -1,0 +1,54 @@
+.container {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(231, 232, 226);
+    margin: 0 auto;
+}
+.container1 {
+    margin-top: 500px;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(231, 232, 226);
+    margin: 0 auto;
+}
+.dua1,
+.satu1,
+.tiga1 {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+}
+.satu1 {
+    background-color: #FF1A00;
+    position: relative;
+    right: -70px;
+}
+.dua1 {
+    background-color: #008C00;
+}
+.tiga1 {
+    background-color: #4096EE;
+}
+.dua,
+.satu,
+.tiga {
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+}
+.satu {
+    background-color: #FF1A00;
+    position: static;
+}
+.dua {
+    background-color: #008C00;
+}
+.tiga {
+    background-color: #4096EE;
+}
