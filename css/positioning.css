@@ -28,9 +28,16 @@
 }
 .dua1 {
     background-color: #008C00;
+
+    position: absolute;
+    left: 30px;
+    top: 30px;
 }
 .tiga1 {
     background-color: #4096EE;
+    position: fixed;
+    left: 30px;
+    top: 30px;
 }
 .dua,
 .satu,
@@ -52,3 +59,71 @@
 .tiga {
     background-color: #4096EE;
 }
+.container2 {
+    margin-top: 300px;
+    width: 700px;
+    height: 700px;
+    background-color: rgb(231, 232, 226);
+    margin: 0 auto;
+}
+.menu {
+    width: 700px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #FF1A00;
+    position: fixed;
+}
+.three1, .three2 {
+    width:150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 10px;
+}
+h1 {display: none;}
+.satu {display: none;}
+.container3{
+    margin-top:400px;
+}
+.container5 {
+    margin-top: 700px;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(231, 232, 226);
+    margin: 0 auto;
+    position: relative;
+    }
+    .four1, .four2, .four3 {
+    width:150px;
+    height: 150px;
+    font-size: 25px;
+    line-height: 150px;
+    text-align: center;
+    color: white;
+    }
+    .four1 {
+    background-color: #FF1A00;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    }
+    .four2{
+    background-color: #008C00;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+    }
+    .four3{
+    background-color: #4096EE;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    }
