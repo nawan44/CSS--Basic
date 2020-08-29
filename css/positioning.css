@@ -75,8 +75,9 @@
     background-color: #FF1A00;
     position: fixed;
 }
-.three1, .three2 {
-    width:150px;
+.three1,
+.three2 {
+    width: 150px;
     height: 150px;
     font-size: 25px;
     line-height: 150px;
@@ -86,10 +87,14 @@
     border: 2px solid black;
     margin: 10px;
 }
-h1 {display: none;}
-.satu {display: none;}
-.container3{
-    margin-top:400px;
+h1 {
+    display: none;
+}
+.satu {
+    display: none;
+}
+.container3 {
+    margin-top: 400px;
 }
 .container5 {
     margin-top: 700px;
@@ -98,32 +103,67 @@ h1 {display: none;}
     background-color: rgb(231, 232, 226);
     margin: 0 auto;
     position: relative;
-    }
-    .four1, .four2, .four3 {
-    width:150px;
+}
+.four1,
+.four2,
+.four3 {
+    width: 150px;
     height: 150px;
     font-size: 25px;
     line-height: 150px;
     text-align: center;
     color: white;
-    }
-    .four1 {
+}
+.four1 {
     background-color: #FF1A00;
     position: absolute;
     left: 10px;
     top: 10px;
     z-index: 1;
-    }
-    .four2{
+}
+.four2 {
     background-color: #008C00;
     position: absolute;
     left: 50px;
     top: 50px;
     z-index: 2;
-    }
-    .four3{
+}
+.four3 {
     background-color: #4096EE;
     position: absolute;
     left: 100px;
     top: 100px;
-    }
+}
+.container6 {
+    margin-top: 1000px;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(231, 232, 226);
+    margin: 0 auto;
+    position: relative;
+}
+
+.img6 {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0 10px 10px 0;
+
+}
+.container7 {
+    margin-top: 1200px;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(231, 232, 226);
+    margin: 0 auto;
+    position: relative;
+}
+
+.img7 {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0 10px 10px 0;
+
+}
