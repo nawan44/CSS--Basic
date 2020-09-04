@@ -1,0 +1,139 @@
+body {
+    background-image: url("../image/gradient.png");
+    background-repeat: repeat-x;
+    color: blue;
+}
+.class1 {
+    width: 960px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid block;
+    /* background-color: cadetblue; */
+    text-align: center;
+    background-image: linear-gradient(red, yellow);
+}
+
+.one {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(red, white, red);
+}
+
+.two {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(green 30%, blue, yellow);
+}
+
+.three {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, blue, white);
+}
+
+.four {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+.five {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    float: left;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: repeating-linear-gradient(red, white 25%);}
+
+    .six {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+        background-image: repeating-linear-gradient(45deg, green, white 1%);
+    }
+    .seven {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+        background-image: radial-gradient(circle at 100% 50%, green, yellow);
+    }    
+    .eight {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+        background-image: radial-gradient(circle 6em, black, yellow);
+    }
+    .seven {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+        background-image: radial-gradient(circle 6em, black, yellow);
+    }    
+    .nine {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+        background-image: radial-gradient(farthest-side circle at 10% 60%, black, yellow, black);
+    }
+    .ten {       
+        width: 400px;
+        height: 250px;
+        margin: 0 auto;
+        border: 2px solid black;
+        float: left;
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+        background-image: repeating-radial-gradient(circle farthest-corner at right top, black, yellow 10%, black 15%);
+    }
