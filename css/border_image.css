@@ -1,0 +1,202 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+}
+.content1 {
+    border: 50px solid;
+    border-image-source: url("../image/border1.png");
+    border-image-width: 33px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+
+}
+.content2 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+    border-image-source: url("../image/border1.png");
+    border-image-width: 30px;
+    border-image-slice: 33 33 33 33;
+}
+.content3 {
+    margin-top: 50px;
+    border: 50px solid;
+    border-image-source: url("../image/border2.png");
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border-image-width: 30px;
+    border-image-slice: 15%;
+}
+.content4 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+    border-image-source: url("../image/border1.png");
+    border-image-width: 30px;
+    border-image-slice: 33% fill;
+}
+.content5 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+    border-image-source: url("../image/border1.png");
+    border-image-width: 30px;
+    border-image-slice: 33% ;
+    border-image-repeat: repeat;
+}
+.content6 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+    border-image-source: url("../image/border1.png");
+    border-image-width: 30px;
+    border-image-slice: 33% fill;
+    border-image-repeat: round;
+}
+.content7 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+    border-image-source: url("../image/border1.png");
+    border-image-width: 30px;
+    border-image-slice: 33;
+    border-image-outset: 30px;
+}
+.content8{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+    border-image: url("../image/border3.png") 30% / 30px / 0px round;
+}
+
+
+.content9{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+
+    border-image-width: 20px;
+    border-image-source: repeating-linear-gradient(to bottom right, blue, white, blue 10px);
+    border-image-slice:10%;
+    border-image-repeat: round;
+    border-image-outset: 20px;
+}
+.content10{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    border: 50px solid;
+
+    border-image-width: 20px;
+    border-image-source: url("../image/hearts.png");
+    border-image-slice: 20 22;
+    border-image-repeat: round;
+    border-image-outset: 20px;
+}
+.content11{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    /* border: 50px solid; */
+
+
+    margin : 0 0 0 50px;
+    /* margin-left: 50px; */
+    box-shadow: 25px 25px;
+}
+.content12{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    /* border: 50px solid; */
+
+    margin : 0 0 0 50px;
+    box-shadow: -25px -25px;
+}
+.content13{
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    
+    
+    margin : 0 0 0 50px;
+    box-shadow: -25px 25px rgba(255,88,75,0.8);
+}
+.content14{
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+
+    margin : 0 0 0 50px;
+    box-shadow: 10px 10px 10px 20px #C0C0C0;
+}
+.content15{
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    
+    box-shadow: 10px 10px 30px blue;
+}
+.content16{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+
+    box-shadow: 10px 10px blue, 20px 20px red;
+}
+.content17{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    box-shadow: inset 10px 10px 10px, inset -10px -10px 10px;
+}
+.content18{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+    box-shadow:inset 7px 7px 3px hsl(100,100%,50%),
+    inset -7px -7px 3px hsl(150,100%,50%) ;
+}.content19{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+
+}
+.content20{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #39B54A;
+
+}
