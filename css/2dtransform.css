@@ -1,0 +1,225 @@
+.container {
+    width: 800px;
+    height: auto;
+    margin: 50px auto;
+}
+.container1{
+    width: 100%;
+    height: 1000px;
+    background-color: yellow;
+}
+.container2{
+    width: 100%;
+    height: 1000px;
+    margin : 70px 0 0 0;
+    background-color: cornflowerblue;
+}
+
+/* TRANSFORM ROTATE */
+.class1 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+
+}
+.class2 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform: rotate(15deg);
+
+}
+.class3 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform: rotate(-30deg);
+
+}
+
+.class4 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform: rotate(-90deg);
+
+}
+/* TRANSFORM TRANSLATE */
+.class5 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform-origin:left top;
+    transform: rotate(15deg);
+}
+.class6 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform-origin:left bottom;
+    transform:rotate(15deg);
+}
+
+.class7 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform-origin: left bottom;
+    transform : rotate(45deg);
+}
+
+/* TRANSFORM SCALE */
+.class8 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : scaleX(1.5);
+}
+.class9 {
+
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform: scaleY(2.5);
+}
+.class10 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : scaleX(0.7) scaleY(2.1);
+}
+/* TRANSFORM SKEW */
+.class11 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : skewX(15deg);
+    
+}
+.class12 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : skewY(15deg);
+}
+.class13 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : skewX(15deg) skewY(-15deg);
+}
+/* TRANSFORM MATRIKS */
+.class14 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : matrix(1,0,0,-1,0,0);
+}
+.class15 {
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : matrix(1,0,0.268,1,-10,-20);
+}
+.class16{
+    width: 300px;
+    height: 100px;
+    background-color: #39B54A;
+    float: left;
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    transform : matrix(0.98,-0.17,0.17,0.98,0,0);
+}
