@@ -1,0 +1,122 @@
+.container{
+    width: 800px;
+    margin: 30px auto;
+}
+.class1{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+}
+.class1:hover{
+    background-color: red;
+}
+
+/* Property transition-duration */
+.class2{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+
+    transition-duration: 1s;
+}
+.class2:hover{
+    background-color: yellow;
+}
+.class3{
+    background-color: green;
+    color: white;
+    transition-property: background-color;
+}
+.class3:hover{
+    background-color: violet;
+    color: tomato;
+}
+.class4, .class5, .class6, .class7, .class8{
+    width: 300px;
+height: 50px;
+background-color: green;
+margin: 20px;
+color: white;
+font-size: 30px;
+line-height: 50px;
+text-align: center;
+transition-duration: 1s;
+}
+.class4{
+    transition-timing-function: linear;
+}
+.class5{
+    transition-timing-function: ease;
+}
+.class6{
+    transition-timing-function: ease-in;
+}
+.class7{
+    transition-timing-function: ease-out;
+}
+.class8{
+    transition-timing-function: ease-in-out;
+}
+.class4:hover, .class5:hover, .class6:hover, .class7:hover, .class8:hover{
+    width: 1000px;
+}
+
+/* Property transition-delay */
+.class9, .class10, .class11, .class12 {
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    transition-duration: 1s;
+}
+.class9{
+    transition-delay: 1s;
+}
+.class10{
+    transition-delay: 0.5s;
+}
+.class11{
+    transition-delay: 100ms;
+}
+.class12{
+    transition-delay: 3000ms;
+}
+
+.class9:hover, .class10:hover, .class11:hover, .class12:hover{
+    width: 800px;
+    background-color: red;
+}
+
+/* Multiple Transition */
+.class13, .class14, .class15, .class16{
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.class13:hover, .class14:hover, .class15:hover, .class16:hover{
+    width: 1000px;
+    background-color: red;
+    color: yellow;
+}
+.class13{
+transition: all 2s ease-out 250ms;
+}
+.class14{
+    transition: width 1s, background-color 10s;;
+}
+.class15{
+    transition: width 1s, background-color 5s, color 10s;
+}
+.class16{
+    transition: width 100ms 1s, background-color 1s 3s, color 100ms 5s;
+}
+

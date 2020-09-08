@@ -1,0 +1,181 @@
+/* ANIMATION */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.class1,
+.class2 {
+    width: 300px;
+    height: 70px;
+    background-color: green;
+    margin: 30px;
+}
+@keyframes width {
+    0% {
+        width: 300px;
+    }
+    50% {
+        width: 100px;
+    }
+    100% {
+        width: 1000px;
+    }
+}
+.class1:hover {
+    animation-name: width;
+    animation-duration: 5s;
+}
+
+@keyframes color {
+    0% {
+        background-color: red;
+    }
+    30% {
+        background-color: blue;
+    }
+    80% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: black;
+    }
+}
+.class2:hover {
+    animation-name: color;
+    animation-duration: 5s;
+}
+
+/* Animation Timming */
+.class3,
+.class4,
+.class5,
+.class6,
+.class7 {
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+@keyframes width-color {
+    25% {
+        width: 500px;
+        background-color: red;
+    }
+
+    50% {
+        width: 200px;
+        background-color: black;
+    }
+    100% {
+        width: 900px;
+        background-color: pink;
+    }
+}
+.class3:hover,
+.class4:hover,
+.class5:hover,
+.class6:hover,
+.class7:hover {
+    animation-name: width-color;
+    animation-duration: 5s;
+}
+.class3 {
+    animation-timing-function: linear;
+}
+.class4 {
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+.class5 {
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+.class6 {
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+}
+.class7 {
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+/* Property animation-fill-mode */
+.class8,
+.class9 {
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    margin: 20px;
+}
+@keyframes width-color1 {
+    0% {
+        width: 500px;
+        background-color: red;
+    }
+    50% {
+        width: 200px;
+        background-color: black;
+    }
+    100% {
+        width: 900px;
+        background-color: pink;
+    }
+}
+.class8:hover {
+    animation-name: width-color1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+.class9:hover {
+    animation-name: width-color1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
+/* Property animation-play-state */
+.class10 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+}
+@keyframes move1 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 900px;
+    }
+    50% {
+        top: 400px;
+        left: 900px;
+    }
+    75% {
+        top: 400px;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+.class10 {
+    animation-name: move1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.class10:hover {
+    animation-play-state: paused;
+    background-color: red;
+}
